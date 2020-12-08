@@ -1,0 +1,10 @@
+
+
+DROP TABLE IF EXISTS animals;
+
+CREATE TABLE animals (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    type TEXT NOT NULL,
+    name TEXT NOT NULL,
+    cuteness TEXT
+);
